@@ -7,5 +7,4 @@ public class FunctionExample implements Function<Integer, String>{
 	public String apply(Integer t) {
 		return "Numero: " + t.toString();
 	}
-
 }

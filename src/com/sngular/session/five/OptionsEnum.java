@@ -17,8 +17,7 @@ public enum OptionsEnum {
 	
 	public static OptionsEnum fromOption(String option) {
 		for(OptionsEnum op: values()) {
-			if(op.getOption().equalsIgnoreCase(option)) {// HELLO == HELLO (true) - HELLO == hello (true)
-				// op.getOption().equals(option);// HELLO == HELLO (true) - HELLO == hello (false)
+			if(op.getOption().equalsIgnoreCase(option)) {
 				return op;
 			}
 		}

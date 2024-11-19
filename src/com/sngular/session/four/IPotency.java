@@ -8,7 +8,7 @@ package com.sngular.session.four;
 public interface IPotency {
 
 	public Double potency(Double data, Double potency);
-	
+
 	public default Integer suma(Integer a, Integer b) {
 		return a + b;
 	}
