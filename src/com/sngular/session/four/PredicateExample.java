@@ -7,5 +7,4 @@ public class PredicateExample implements Predicate<Integer>{
 	public boolean test(Integer t) {
 		return t < 0 ? true : false;
 	}
-
 }

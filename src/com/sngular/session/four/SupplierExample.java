@@ -8,5 +8,4 @@ public class SupplierExample implements Supplier<Integer>{
 	public Integer get() {
 		return new Random().nextInt();
 	}
-
 }

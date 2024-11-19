@@ -6,7 +6,6 @@ public class ConsumerExample implements Consumer<Integer>{
 	@Override
 	public void accept(Integer t) {
 		System.out.println(t);
-
 	}
 
 }

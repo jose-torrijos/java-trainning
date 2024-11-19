@@ -6,5 +6,4 @@ public class FunctionalInterfaces {
 		// TODO Auto-generated method stub
 
 	}
-
 }
