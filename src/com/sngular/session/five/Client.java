@@ -30,7 +30,6 @@ public class Client {
 					System.out.println("Conexión cerrada.");
 					break;
 				}
-//				int a = 1/0;
 				String received = dataIn.readUTF();
 				System.out.println(OptionsEnum.fromOption(send) + ": " + received);
 			}
