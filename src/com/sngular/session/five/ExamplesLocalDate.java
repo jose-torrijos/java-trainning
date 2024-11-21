@@ -36,6 +36,6 @@ public class ExamplesLocalDate {
 		
 		System.out.println(ChronoUnit.DAYS.between(localDate2, localDate1));
 		System.out.println(localDate1.plusDays(8).toString());
-		System.out.println(localDate1.plusDays(-20).toString());
+		System.out.println(localDate1.plusDays(-40).toString());
 	}
 }

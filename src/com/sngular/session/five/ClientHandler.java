@@ -43,6 +43,8 @@ public class ClientHandler extends Thread {
 				
 				switch (received) {
 				case FECHA:
+//					new Date()
+//					sdf.format(date)
 					sended = LocalDate.now().format(datePattern);
 					dataOut.writeUTF(sended);
 					break;
